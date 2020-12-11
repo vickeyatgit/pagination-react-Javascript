@@ -1,0 +1,48 @@
+.center {
+	text-align: center;
+}
+
+.button1 {
+	border-radius: 50%;
+	padding: 15px;
+	margin: 10px;
+	border-color: white;
+	border: 0px;
+	background-color: white;
+	outline: none;
+}
+
+.button1:focus {
+	border: 0px;
+	background-color: #f5f7f6;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 10px;
+	border-color: white;
+	border: 0px;
+	outline: none;
+}
+
+.number {
+	border-radius: 100%;
+	margin: 8px;
+	border: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: white;
+	outline: none;
+}
+
+.number:focus {
+	border-radius: 100%;
+	margin: 8px;
+	border: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-color: white;
+	outline: none;
+}
