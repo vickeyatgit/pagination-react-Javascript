@@ -28,6 +28,7 @@ export default function Pagination({ Lastpage }) {
 		}
 		const { ll } = data(gi);
 		setListitem(ll);
+		window.scrollTo({ top: 0, behavior: "smooth" });
 	};
 	// to move previous number of set in range 10
 	const previous = () => {
